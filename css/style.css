@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.chest{
+    width: 400px;
+    height: 400px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+button{
+    width: 250px;
+    height: 75px;
+    font-size: large;
+    background-color: yellow;
+    border-radius: 20px;
+    border-color: brown;
+}
